@@ -38,6 +38,9 @@ spec:
             - /bin/bash
           args:
             - start.sh
+          {{- with .Values.configuration.extraArgs }}
+            {{ toYaml . | nindent 12 }}
+          {{- end }}
           envFrom:
             - configMapRef:
                 name: {{ include "openwebui.fullname" . }}
