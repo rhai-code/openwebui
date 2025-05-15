@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  openwebui:
+  - apiVersion: v2
+    appVersion: 0.6.9
+    created: "2025-05-15T16:48:40.093937135Z"
+    description: A Helm chart to deploy OpenWebUI on OpenShift
+    digest: b8f82388214f8854b6f75f0b0c44ec16204649708d2e54d8e06b56a81a31bc1d
+    name: openwebui
+    type: application
+    urls:
+    - https://github.com/rhai-code/openwebui/releases/download/openwebui-0.1.1/openwebui-0.1.1.tgz
+    version: 0.1.1
+generated: "2025-05-15T16:48:40.093941984Z"
